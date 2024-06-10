@@ -1,0 +1,92 @@
+:root {
+    --background-color: #8BC34A;
+    --text-color: #FFFFFF;
+    --accent-color: #FF9800;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+nav {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.adventure-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+.image-gallery {
+    width: 800px;
+    height: auto;
+}
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+    margin: 0 auto;
+}
+#contact {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
